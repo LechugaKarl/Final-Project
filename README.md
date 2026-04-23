@@ -1,2 +1,71 @@
-# Final-Project
+# Final Project
 Steps and Procedures
+<details>
+<summary>RC Car using Esp32-D and L298N Motor Driver</summary>
+
+INTRODUCTION:
+
+In the rapidly evolving field of embedded systems and robotics, the development of remote-controlled (RC) vehicles serves as a fundamental benchmark for integrating hardware control with wireless communication. This project focuses on the design and implementation of an RC car powered by an ESP32 microcontroller and controlled via an L298N motor driver module.
+
+The system leverages the computational efficiency of the ESP32 to process control signals—transmitted wirelessly via Wi-Fi or Bluetooth—and translate them into precise mechanical movements. Because microcontrollers operate at low voltage and current levels, they cannot directly drive the high-power requirements of DC motors. This is where the L298N motor driver acts as a critical interface, functioning as an H-Bridge to allow the ESP32 to control the direction and speed of the wheels through Pulse Width Modulation (PWM) and digital logic switching.
+
+![Image Alt]()
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<details>
+<summary>COMPONENTS</summary>
+
+ESP32-D
+The ESP32-D (specifically the ESP32-D0WD series) is a powerful, dual-core system-on-a-chip (SoC) designed by Espressif Systems. It is the core processor used in many popular ESP32 development boards and is tailored for high-performance Internet of Things (IoT) applications that require both Wi-Fi and Bluetooth connectivity.
+
+![Image Alt]()
+
+PINOUT:
+
+![Image Alt]()
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+L298N Motor Driver
+The L298N is a high-power, dual H-Bridge motor driver module commonly used to control the speed and direction of DC motors and stepper motors.
+Since microcontrollers like the ESP32 or Arduino cannot provide enough current to spin motors directly—and could be damaged if they tried—the L298N acts as a heavy-duty switch between a high-voltage battery and the motors.
+
+![Image Alt]()
+
+PINOUT:
+
+![Image Alt]()
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+DC Motor
+A Direct Current (DC) motor is an electrical machine that converts electrical energy into mechanical energy. It operates on the principle of Lorentz Force, which states that when a current-carrying conductor is placed in a magnetic field, it experiences a physical force that causes it to move.
+
+![Image Alt]()
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Lithium Ion Battery
+A Lithium-ion (Li-ion) battery is a type of rechargeable battery that relies on the movement of lithium ions between a positive electrode (cathode) and a negative electrode (anode) to store and release energy.
+Because of their high energy density and light weight, they are the standard power source for modern portable electronics, electric vehicles, and—most relevantly—high-performance robotics projects like your RC car.
+
+![Image Alt]()
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<details>
+<summary>SCHEMATIC DIAGRAM</summary>
+
+![Image Alt]()
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<details>
+<summary>CODES</summary>
+
+![Image Alt]()
+![Image Alt]()
+![Image Alt]()
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<details>
+<summary>SAMPLE VIDEO</summary>

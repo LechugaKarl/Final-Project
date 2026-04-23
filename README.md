@@ -61,11 +61,13 @@ ________________________________________________________________________________
 <summary>CODES</summary>
 
 ![Image Alt](https://github.com/LechugaKarl/Final-Project/blob/main/assets/code1.jpg)
+
 ![Image Alt](https://github.com/LechugaKarl/Final-Project/blob/main/assets/code2.jpg)
+
 ![Image Alt](https://github.com/LechugaKarl/Final-Project/blob/main/assets/code3.jpg)
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 <details>
 <summary>SAMPLE VIDEO</summary>
-https://github.com/LechugaKarl/Final-Project/blob/main/assets/Presentation.mp4
+https://github.com/user-attachments/assets/89fd2ed1-6db1-4794-8f57-b2e1660d32ae
